@@ -32,4 +32,4 @@ jobs:
           # Prevent warnings from being treated as errors
           CI=false npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
         env:
-          GITHUB_TOKEN: ${{ secrets.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 }}
+          GITHUB_TOKEN: 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
