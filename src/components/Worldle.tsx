@@ -5,6 +5,6 @@ export function Worldle() {
     <span className="font-bold">
       SATd<span className="text-green-600">L</span>E
     </span>
-    text: {Forked by Alejandro Redondo and Javier Becerra thus strongly based on @teuteuf and @aommm. Thank you, guys!]
+    {text: 'Forked by Alejandro Redondo and Javier Becerra thus strongly based on @teuteuf and @aommm. Thank you, guys!'}
   );
 }
