@@ -28,8 +28,8 @@ jobs:
 
       - name: Deploy with gh-pages
         run: |
-          git remote set-url origin https://javierbecerra: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@github.com/javierbecerra/SATdle_.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git
           # Prevent warnings from being treated as errors
           CI=false npm run deploy -- -u "github-actions-bot <support+actions@github.com>"
         env:
-          GITHUB_TOKEN: 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
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
