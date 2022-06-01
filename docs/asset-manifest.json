@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SATdle_/static/css/main.db2e2872.css",
-    "main.js": "/SATdle_/static/js/main.5387a75d.js",
-    "static/js/787.b43cf000.chunk.js": "/SATdle_/static/js/787.b43cf000.chunk.js",
+    "main.css": "/SATdle_/static/css/main.4198a8c0.css",
+    "main.js": "/SATdle_/static/js/main.6444338a.js",
+    "static/js/787.2ca5f258.chunk.js": "/SATdle_/static/js/787.2ca5f258.chunk.js",
     "service-worker.js": "/SATdle_/service-worker.js",
     "index.html": "/SATdle_/index.html",
-    "main.db2e2872.css.map": "/SATdle_/static/css/main.db2e2872.css.map",
-    "main.5387a75d.js.map": "/SATdle_/static/js/main.5387a75d.js.map",
-    "787.b43cf000.chunk.js.map": "/SATdle_/static/js/787.b43cf000.chunk.js.map"
+    "main.4198a8c0.css.map": "/SATdle_/static/css/main.4198a8c0.css.map",
+    "main.6444338a.js.map": "/SATdle_/static/js/main.6444338a.js.map",
+    "787.2ca5f258.chunk.js.map": "/SATdle_/static/js/787.2ca5f258.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.db2e2872.css",
-    "static/js/main.5387a75d.js"
+    "static/css/main.4198a8c0.css",
+    "static/js/main.6444338a.js"
   ]
 }
