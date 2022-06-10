@@ -24,6 +24,9 @@ import { Twemoji } from "@teuteuf/react-emoji-render";
 
 const MAX_TRY_COUNT = 6;
 
+const pathImages = 'images/countries/'
+const endImage = '-satellite.png'
+
 interface GameProps {
   settingsData: SettingsData;
   updateSettings: (newSettings: Partial<SettingsData>) => void;
@@ -36,7 +39,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
     [settingsData.shiftDayCount]
   );
 
-  const countryInputRef = useRef<HTMLInputElement>(null);
+  const countryInputRef = useRef<HTMLInputElement>(null); 
 
   const [todays, addGuess, randomAngle, imageScale] = useTodays(dayString);
   const { country, guesses } = todays;
@@ -152,7 +155,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
           alt="municipality to guess"
-          src={`images/countries/${country?.code}-satellite.png`}
+          src={`${pathImages}${country?.code}${endImage}`}
           style={
             rotationMode && !gameEnded
               ? {
