@@ -155,7 +155,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
           alt="municipality to guess"
-          src={pathImages + `${country?.code}` + endImage}
+          src={pathImages + country?.code + endImage}
           style={
             rotationMode && !gameEnded
               ? {
