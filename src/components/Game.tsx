@@ -24,8 +24,8 @@ import { Twemoji } from "@teuteuf/react-emoji-render";
 
 const MAX_TRY_COUNT = 6;
 
-const pathImages = 'images/countries/'
-const endImage = '-satellite.png'
+const pathImages = 'images/countries/';
+const endImage = '-satellite.png';
 
 interface GameProps {
   settingsData: SettingsData;
