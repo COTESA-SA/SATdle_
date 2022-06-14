@@ -39,7 +39,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
     [settingsData.shiftDayCount]
   );
 
-  const countryInputRef = useRef<HTMLInputElement>(null); 
+  const countryInputRef = useRef<HTMLInputElement>(null);
 
   const [todays, addGuess, randomAngle, imageScale] = useTodays(dayString);
   const { country, guesses } = todays;
