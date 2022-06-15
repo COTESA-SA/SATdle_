@@ -158,11 +158,12 @@ export function Game({ settingsData, updateSettings }: GameProps) {
           src={
             !gameEnded
               ? {
-                 `${pathImages}${guesses.length + 1}${endImage}`
-                 }
-              : {
-                 `${pathImages}${guesses.length}${endImage}`
+                  `${pathImages}${guesses.length + 1}${endImage}`,
                 }
+              : {
+                  `${pathImages}${guesses.length}${endImage}`,
+                }
+          }
           style={
             rotationMode && !gameEnded
               ? {
