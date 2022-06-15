@@ -29,7 +29,7 @@ const endImage = ".PNG";
 
 function pathImage(endGame)
 {
-    return !endGame ? `${pathImages}${guesses.length + 1}${endImage}` : `${pathImages}${guesses.length}${endImage}`
+    return !endGame ? `${pathImages}${guesses.length + 1}${endImage}` : `${pathImages}${guesses.length}${endImage}`;
 }
 
 interface GameProps {
