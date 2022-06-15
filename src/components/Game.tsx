@@ -155,7 +155,14 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
           alt="municipality to guess"
-          src={`${pathImages}${guesses.length + 1}${endImage}`}
+          src={
+            !gameEnded
+              ? {
+                 `${pathImages}${guesses.length + 1}${endImage}`
+                 }
+              : {
+                 `${pathImages}${guesses.length}${endImage}`
+                }
           style={
             rotationMode && !gameEnded
               ? {
