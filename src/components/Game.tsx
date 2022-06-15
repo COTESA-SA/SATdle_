@@ -27,9 +27,15 @@ const MAX_TRY_COUNT = 6;
 const pathImages = "images_satdle/";
 const endImage = ".PNG";
 
-function pathImage(endGame)
-{
-    return !endGame ? `${pathImages}${guesses.length + 1}${endImage}` : `${pathImages}${guesses.length}${endImage}`;
+function pathImage(endGame) {
+  if (!endGame)
+  {
+    return `${pathImages}${guesses.length + 1}${endImage}`;
+  }
+  else
+  {
+    `${pathImages}${guesses.length}${endImage}`;
+  }
 }
 
 interface GameProps {
