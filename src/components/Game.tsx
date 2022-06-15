@@ -27,7 +27,7 @@ const MAX_TRY_COUNT = 6;
 const pathImages = "images_satdle/";
 const endImage = ".PNG";
 
-function pathImage(endGame) {
+function pathImage(endGame: boolean) {
   if (!endGame) {
     return `${pathImages}${guesses.length + 1}${endImage}`;
   } else {
