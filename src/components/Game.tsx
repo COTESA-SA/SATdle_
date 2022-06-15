@@ -27,6 +27,11 @@ const MAX_TRY_COUNT = 6;
 const pathImages = "images_satdle/";
 const endImage = ".PNG";
 
+function pathImage(endGame)
+{
+    return !endGame ? `${pathImages}${guesses.length + 1}${endImage}` : `${pathImages}${guesses.length}${endImage}`
+}
+
 interface GameProps {
   settingsData: SettingsData;
   updateSettings: (newSettings: Partial<SettingsData>) => void;
@@ -155,15 +160,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
           alt="municipality to guess"
-          src={
-            !gameEnded
-              ? {
-                  `${pathImages}${guesses.length + 1}${endImage}`,
-                }
-              : {
-                  `${pathImages}${guesses.length}${endImage}`,
-              }
-          }
+          src={pathImage(gameEnded)}
           style={
             rotationMode && !gameEnded
               ? {
