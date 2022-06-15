@@ -25,7 +25,7 @@ import { Twemoji } from "@teuteuf/react-emoji-render";
 const MAX_TRY_COUNT = 6;
 
 const pathImages = "images_satdle/";
-const endImage = "1.PNG";
+const endImage = ".PNG";
 
 interface GameProps {
   settingsData: SettingsData;
@@ -155,7 +155,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
           alt="municipality to guess"
-          src={`${pathImages}${endImage}`}
+          src={`${pathImages}${currentGuess}${endImage}`}
           style={
             rotationMode && !gameEnded
               ? {
