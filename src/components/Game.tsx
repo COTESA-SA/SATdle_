@@ -27,7 +27,7 @@ const MAX_TRY_COUNT = 6;
 const pathImages = "images_satdle/";
 const endImage = ".PNG";
 
-function pathImage(endGame: booleann, iterActual: number) {
+function pathImage(endGame: boolean, iterActual: number) {
   if (!endGame) {
     return `${pathImages}${iterActual + 1}${endImage}`;
   } else {
