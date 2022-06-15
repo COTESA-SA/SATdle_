@@ -28,13 +28,10 @@ const pathImages = "images_satdle/";
 const endImage = ".PNG";
 
 function pathImage(endGame) {
-  if (!endGame)
-  {
+  if (!endGame){
     return `${pathImages}${guesses.length + 1}${endImage}`;
-  }
-  else
-  {
-    `${pathImages}${guesses.length}${endImage}`;
+  } else{
+    return `${pathImages}${guesses.length}${endImage}`;
   }
 }
 
