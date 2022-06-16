@@ -26,13 +26,13 @@ const MAX_TRY_COUNT = 6;
 
 const pathImages = "imagesP/";
 const endImage = ".png";
-const nameFolder = "Intento";
+const nameFolder = "_Intento/";
 
-function pathImage(endGame: boolean, iterActual: number, nameImage: string) {
+function pathImage(endGame: boolean, iterActual: number, nameImage: any) {
   if (!endGame) {
-    return `${pathImages}${nameFolder}${iterActual + 1}${nameImage}${endImage}`;
+    return `${pathImages}${iterActual + 1}${nameFolder}${nameImage}${endImage}`;
   } else {
-    return `${pathImages}${nameFolder}${iterActual}${nameImage}${endImage}`;
+    return `${pathImages}${iterActual}${nameFolder}${nameImage}${endImage}`;
   }
 }
 
