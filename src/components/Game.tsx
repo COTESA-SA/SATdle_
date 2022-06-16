@@ -27,12 +27,13 @@ const MAX_TRY_COUNT = 6;
 const pathImages = "imagesP/";
 const endImage = ".png";
 const nameFolder = "Intento";
+const barra = "/";
 
 function pathImage(endGame: boolean, iterActual: number, nameImage: string) {
   if (!endGame) {
-    return `${pathImages}${nameFolder}${iterActual + 1}"/"${nameImage}${endImage}`;
+    return `${pathImages}${nameFolder}${iterActual + 1}${barra}${nameImage}${endImage}`;
   } else {
-    return `${pathImages}${nameFolder}${iterActual}"/"${nameImage}${endImage}`;
+    return `${pathImages}${nameFolder}${iterActual}${barra}${nameImage}${endImage}`;
   }
 }
 
