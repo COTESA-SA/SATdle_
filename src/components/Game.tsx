@@ -28,11 +28,11 @@ const pathImages = "imagesP/";
 const endImage = ".png";
 const nameFolder = Intento;
 
-function pathImage(endGame: boolean, iterActual: number) {
+function pathImage(endGame: boolean, iterActual: number, nameImage: string) {
   if (!endGame) {
-    return `${pathImages}${nameFolder}${iterActual + 1}/}${country?.code}${endImage}`;
+    return `${pathImages}${nameFolder}${iterActual + 1}/${nameImage}${endImage}`;
   } else {
-    return `${pathImages}${nameFolder}${iterActual}/}${country?.code}${endImage}`;
+    return `${pathImages}${nameFolder}${iterActual}/${nameImage}${endImage}`;
   }
 }
 
@@ -164,7 +164,7 @@ export function Game({ settingsData, updateSettings }: GameProps) {
             hideImageMode && !gameEnded ? "h-0" : "h-full"
           }`}
           alt="municipality to guess"
-          src={pathImage(gameEnded, guesses.length)}
+          src={pathImage(gameEnded, guesses.length, country?.code)}
           style={
             rotationMode && !gameEnded
               ? {
