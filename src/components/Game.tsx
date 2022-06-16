@@ -27,7 +27,7 @@ const MAX_TRY_COUNT = 6;
 const pathImages = "imagesP/";
 const endImage = ".png";
 const nameFolder = "Intento";
-const barra = "/";
+const barra = "\/";
 
 function pathImage(endGame: boolean, iterActual: number, nameImage: string) {
   if (!endGame) {
