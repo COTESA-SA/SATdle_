@@ -24,14 +24,15 @@ import { Twemoji } from "@teuteuf/react-emoji-render";
 
 const MAX_TRY_COUNT = 6;
 
-const pathImages = "images_satdle/";
-const endImage = ".PNG";
+const pathImages = "imagesP/";
+const endImage = ".png";
+const nameFolder = Intento
 
 function pathImage(endGame: boolean, iterActual: number) {
   if (!endGame) {
-    return `${pathImages}${iterActual + 1}${endImage}`;
+    return `${pathImages}${nameFolder}${iterActual + 1}/}${country?.code}${endImage}`;
   } else {
-    return `${pathImages}${iterActual}${endImage}`;
+    return `${pathImages}${nameFolder}${iterActual}/}${country?.code}${endImage}`;
   }
 }
 
