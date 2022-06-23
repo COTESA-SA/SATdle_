@@ -15,8 +15,8 @@ export const countries: Country[] = [
   {
     name: "Pamplona",
     code: "Pamplona",
-    longitude: -1.6529999900,
-    latitude: 42.8129997200,
+    longitude: -1.65299999,
+    latitude: 42.81299972,
   },
 ];
 
