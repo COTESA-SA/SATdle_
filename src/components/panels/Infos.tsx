@@ -114,20 +114,20 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           &quot;Made&quot; by{" "}
           <a
             className="underline"
-            href="https://github.com/aommm"
+            href="https://github.com/aredondosy/SATdle_"
             target="_blank"
             rel="noopener noreferrer"
           >
-            @aommm
+            Alejandro{" "}R.{" "}and{" "}Javier{" "}B.
           </a>{" "}
           - (
           <a
             className="underline"
-            href="https://github.com/aommm/kommunle"
+            href="https://cotesa.grupotecopy.es/"
             target="_blank"
             rel="noopener noreferrer"
           >
-            source code
+            COTESA
           </a>
           )
         </div>
