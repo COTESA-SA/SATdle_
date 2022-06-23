@@ -118,7 +118,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Alejandro{" "}R.{" "}and{" "}Javier{" "}B.
+            Alejandro R. and Javier B.
           </a>{" "}
           - (
           <a
