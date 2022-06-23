@@ -24,7 +24,7 @@ import { Twemoji } from "@teuteuf/react-emoji-render";
 
 const MAX_TRY_COUNT = 6;
 
-const pathImages = "imagesP/";
+const pathImages = "images_SATdle/";
 const endImage = ".png";
 const nameFolder = "_Intento/";
 
