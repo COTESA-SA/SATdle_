@@ -2,6 +2,7 @@
 
 const countryCodesWithImage = [
   "Pamplona",
+  "Madrid",
 ];
 
 export interface Country {
@@ -17,6 +18,12 @@ export const countries: Country[] = [
     code: "Pamplona",
     longitude: -1.65299999,
     latitude: 42.81299972,
+  },
+  {
+  name: "MADRID",
+  code: "MADRID",
+  longitude: -3.69096946,
+  latitude: 40.44221878,
   },
 ];
 
