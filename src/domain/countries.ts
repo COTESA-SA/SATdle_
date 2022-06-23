@@ -13,10 +13,10 @@ export interface Country {
 
 export const countries: Country[] = [
   {
-  name: "PAMPLONA",
-  code: "PAMPLONA",
-  longitude: "-1.6529999900",
-  latitude: "42.8129997200",
+    name: "Pamplona",
+    code: "Pamplona",
+    longitude: -1.65299999,
+    latitude: 42.81299972,
   },
 ];
 
