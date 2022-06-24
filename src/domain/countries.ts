@@ -1,6 +1,15 @@
 // Source:
 
-const countryCodesWithImage = ["Pamplona", "Altdorf", "Amsterdam", "Ancona", "Andorra", "Antwerpen", "Aosta", "Appenzell"];
+const countryCodesWithImage = [
+  "Pamplona",
+  "Altdorf",
+  "Amsterdam",
+  "Ancona",
+  "Andorra",
+  "Antwerpen",
+  "Aosta",
+  "Appenzell",
+];
 
 export interface Country {
   code: string;
@@ -26,7 +35,7 @@ export const countries: Country[] = [
     name: "Amsterdam",
     code: "Amsterdam",
     longitude: 4.88969,
-    latitude: 52.3740,
+    latitude: 52.374,
   },
   {
     name: "Ancona",
