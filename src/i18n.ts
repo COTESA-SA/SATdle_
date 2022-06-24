@@ -33,9 +33,9 @@ const resources = {
         guessDistribution: "Guess distribution:",
       },
       install: {
-        title: "Kommunle",
+        title: "SATdle",
         descritpionTitle: "App Install:",
-        description: "Add Kommunle to Home Screen to play it easily!",
+        description: "Add SATdle to Home Screen to play it easily!",
         instructionTitle: "Instructions:",
         instructionActionOk: "OK",
         instructionActionCancel: "Cancel",
@@ -87,10 +87,10 @@ const resources = {
         guessDistribution: "Répartitions des victoires:",
       },
       install: {
-        title: "Kommunle",
+        title: "SATdle",
         descritpionTitle: "Installer l'app:",
         description:
-          "Ajouter Kommunle sur l'écran d'accueil pour le retrouver plus facilement !",
+          "Ajouter SATdle sur l'écran d'accueil pour le retrouver plus facilement !",
         instructionTitle: "Instructions :",
         instructionActionOk: "OK",
         instructionActionCancel: "Annuler",
