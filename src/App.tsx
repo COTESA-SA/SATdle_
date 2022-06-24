@@ -152,5 +152,5 @@ function App({
 }
 
 export default withServiceWorkerUpdater(App, {
-  persistenceService: new LocalStoragePersistenceService("kommunle"),
+  persistenceService: new LocalStoragePersistenceService("SATdle"),
 });
