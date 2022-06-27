@@ -59,8 +59,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Your second guess <span className="uppercase font-bold">Luxembourg</span>{" "}
-            is &nbsp;
+            Your second guess <span className="uppercase font-bold">Luxembourg</span> is{" "}
             {formatDistance(252000, settingsData.distanceUnit)} away, to the
             Southeast and 83%!
           </div>
@@ -78,8 +77,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             settingsData={settingsData}
           />
           <div className="my-2">
-            Next guess, <span className="uppercase font-bold">Basel</span>,
-            is the correct municipality! Congrats!{" "}
+            Next guess, <span className="uppercase font-bold">Basel</span>, is 
+            the correct municipality! Congrats!{" "}
             <Twemoji text="🎉" options={{ className: "inline-block" }} />
           </div>
         </div>
