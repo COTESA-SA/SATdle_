@@ -9,6 +9,17 @@ const countryCodesWithImage = [
   "Antwerpen",
   "Aosta",
   "Appenzell",
+  "Arlon",
+  "Barcelona",
+  "Basel",
+  "Luxembourg",
+  "Madrid",
+  "Merida",
+  "Oviedo",
+  "Paris",
+  "Toledo",
+  "Valencia",
+  "Zaragoza",
 ];
 
 export interface Country {
@@ -66,6 +77,72 @@ export const countries: Country[] = [
     code: "Appenzell",
     longitude: 9.408623,
     latitude: 47.3314175,
+  },
+  {
+    name: "Arlon",
+    code: "Arlon",
+    longitude: 5.816699,
+    latitude: 49.6833,
+  },
+  {
+    name: "Barcelona",
+    code: "Barcelona",
+    longitude: 2.15899991,
+    latitude: 41.3580017,
+  },
+  {
+    name: "Basel",
+    code: "Basel",
+    longitude: 7.588576,
+    latitude: 47.559601,
+  },
+  {
+    name: "Luxembourg",
+    code: "Luxembourg",
+    longitude: 6.131935,
+    latitude: 49.611622,
+  },
+  {
+    name: "Madrid",
+    code: "Madrid",
+    longitude: -3.6909694,
+    latitude: 40.4422187,
+  },
+  {
+    name: "Merida",
+    code: "Merida",
+    longitude: -6.3379998,
+    latitude: 38.9119987,
+  },
+  {
+    name: "Oviedo",
+    code: "Oviedo",
+    longitude: -5.84476,
+    latitude: 43.36029,
+  },
+  {
+    name: "Paris",
+    code: "Paris",
+    longitude: 2.349014,
+    latitude: 48.864716,
+  },
+  {
+    name: "Toledo",
+    code: "Toledo",
+    longitude: -4.02263,
+    latitude: 39.8581,
+  },
+  {
+    name: "Valencia",
+    code: "Valencia",
+    longitude: -0.375,
+    latitude: 39.466667,
+  },
+  {
+    name: "Zaragoza",
+    code: "Zaragoza",
+    longitude: -0.887712,
+    latitude: 41.649693,
   },
 ];
 
