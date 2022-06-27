@@ -142,8 +142,9 @@ function App({
                 <div className="w-max">{t(`support.${country.code}`)}</div>
               </a>
             ) : (
-              " Me too!"
+              " Me too! "
             )}
+            <img src="logo192.png" alt="COTESA logo" width="192" height="192"\>
           </footer>
         </div>
       </div>
