@@ -144,7 +144,7 @@ function App({
             ) : (
               " Me too! "
             )}
-            <img src="logo192.png" alt="COTESA logo" width="192" height="192"/>
+            <img src="logo192.png" alt="COTESA logo" width="192" height="192" />
           </footer>
         </div>
       </div>
