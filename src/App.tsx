@@ -143,8 +143,8 @@ function App({
               </a>
             ) : (
               " Me too! "
-            )}
-            <img src="logo192.png" alt="COTESA logo" width="192" height="192" />
+            )}{" "}
+            <a title="COTESA" href="https://cotesa.grupotecopy.es/"><img src="logo192.png" alt="COTESA logo" width="60" height="60" /></a>
           </footer>
         </div>
       </div>
