@@ -131,7 +131,7 @@ function App({
               text="❤️"
               className="flex items-center justify-center mr-1"
             />{" "}
-            <Worldle /> - 
+            <Worldle /> -
             {country && supportLink[country.code] != null ? (
               <a
                 className="underline pl-1"
