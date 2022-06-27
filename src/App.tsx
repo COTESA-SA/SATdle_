@@ -131,7 +131,7 @@ function App({
               text="❤️"
               className="flex items-center justify-center mr-1"
             />{" "}
-            <Worldle /> -{" "}
+            <Worldle /> - 
             {country && supportLink[country.code] != null ? (
               <a
                 className="underline pl-1"
@@ -143,7 +143,7 @@ function App({
               </a>
             ) : (
               " Me too! "
-            )}
+            )}{" "}
             <a title="COTESA" href="https://cotesa.grupotecopy.es/">
               <img src="logo192.png" alt="COTESA logo" width="60" height="60" />
             </a>
