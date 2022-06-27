@@ -32,7 +32,7 @@ function pathImage(endGame: boolean, iterActual: number, nameImage: any) {
   if (!endGame) {
     return `${pathImages}${iterActual + 1}${nameFolder}${nameImage}${endImage}`;
   } else {
-    return `${pathImages}${iterActual}${nameFolder}${nameImage}${endImage}`;
+    return `${pathImages}${6}${nameFolder}${nameImage}${endImage}`;
   }
 }
 
