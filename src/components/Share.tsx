@@ -60,7 +60,7 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://aredondosy.github.io/SATdle_"].join("\n");
+    return [title, guessString, "https://aredondosy.github.io/SATdle_/"].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (
