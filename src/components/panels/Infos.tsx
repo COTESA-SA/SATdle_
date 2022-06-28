@@ -106,6 +106,23 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           rel="noopener noreferrer"
         >
           @teuteuf
+        </a> and 
+        <a
+          className="underline"
+          href="https://kommunle.se/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Worldle
+        </a>{" "}
+        created by{" "}
+        <a
+          className="underline"
+          href="https://niklaslogren.com/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Niklas Logren
         </a>
         .
       </div>
@@ -129,7 +146,13 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           >
             COTESA
           </a>
-          ) - <a className="underline" href="mailto:alejandroredondo@grupotecopy.es">Contact us</a>
+          ) -
+          <a
+            className="underline"
+            href="mailto:alejandroredondo@grupotecopy.es"
+          >
+            Contact us
+          </a>
         </div>
       </div>
     </Panel>
