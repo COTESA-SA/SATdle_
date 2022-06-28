@@ -120,7 +120,7 @@ const resources = {
       share: "Compartir",
       showOnGoogleMaps: "👀 en Google Maps",
       welldone: "Bien hecho !",
-      unknownCountry: "País desconocido !",
+      unknownCountry: "Ciudad desconocida !",
       copy: "Resultado copiado !",
       showCountry: "🗺️ mostrar mapa !",
       cancelRotation: "🌀 Anular la rotacíon",
