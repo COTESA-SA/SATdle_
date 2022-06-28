@@ -130,10 +130,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
             COTESA
           </a>
           ) - 
-          <a
-            href="alejandroredondo@grupotecopy.es"
-          >
-            Contact us.
+          <a href="alejandroredondo@grupotecopy.es">Contact us.
           </a>
         </div>
       </div>
