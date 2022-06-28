@@ -115,7 +115,7 @@ const resources = {
   },
   es: {
     translation: {
-      placeholder: "País, Territorios...",
+      placeholder: "Ciudad",
       guess: "Adivinar",
       share: "Compartir",
       showOnGoogleMaps: "👀 en Google Maps",
