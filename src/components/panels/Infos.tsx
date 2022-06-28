@@ -114,7 +114,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           &quot;Made&quot; by{" "}
           <a
             className="underline"
-            href="https://github.com/aredondosy/SATdle_"
+            href="https://github.com/COTESA-SA/SATdle_"
             target="_blank"
             rel="noopener noreferrer"
           >
@@ -129,7 +129,12 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           >
             COTESA
           </a>
-          )
+          ){" "}-{" "}
+          <a
+            href="alejandroredondo@grupotecopy.es"
+          >
+            Contact us.
+          </a>
         </div>
       </div>
     </Panel>
