@@ -144,7 +144,10 @@ function App({
             ) : (
               " Me too!       - "
             )}{" "}
-            <a title="COTESA" href="https://cotesa.grupotecopy.es/" target="_blank">
+            <a
+              title="COTESA"
+              href="https://cotesa.grupotecopy.es/"
+              target="_blank">
               <img src="logo192.png" alt="COTESA logo" width="60" height="60" />
             </a>
           </footer>
