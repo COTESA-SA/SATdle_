@@ -106,7 +106,8 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           rel="noopener noreferrer"
         >
           @teuteuf
-        </a> and 
+        </a>{" "}
+        and{" "}
         <a
           className="underline"
           href="https://kommunle.se/"
