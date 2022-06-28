@@ -114,7 +114,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Worldle
+          kommunle
         </a>{" "}
         created by{" "}
         <a
