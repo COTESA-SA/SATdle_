@@ -147,7 +147,9 @@ function App({
             <a
               title="COTESA"
               href="https://cotesa.grupotecopy.es/"
-              target="_blank">
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               <img src="logo192.png" alt="COTESA logo" width="60" height="60" />
             </a>
           </footer>
