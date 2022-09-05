@@ -618,7 +618,7 @@ export const countries: Country[] = [
   {
     name: "Jaen",
     code: "Jaen",
-    longitude: -3.492055612037218,
+    longitude: -3.4920556120372,
     latitude: 37.9557275,
   },
   {
