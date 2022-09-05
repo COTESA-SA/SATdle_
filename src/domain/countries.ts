@@ -294,8 +294,8 @@ export const countries: Country[] = [
   {
     name: "Alexandria",
     code: "Alexandria",
-    longitude: -77.0470229,
-    latitude: 38.8051095,
+    longitude: 25.333,
+    latitude: 43.967,
   },
   {
     name: "Alexandroupoli",
@@ -378,8 +378,8 @@ export const countries: Country[] = [
   {
     name: "Branco",
     code: "Branco",
-    longitude: -46.8878341,
-    latitude: -23.6002101,
+    longitude: -7.49189,
+    latitude: 39.8239,
   },
   {
     name: "Bregenz",
@@ -558,8 +558,8 @@ export const countries: Country[] = [
   {
     name: "Guadalajara",
     code: "Guadalajara",
-    longitude: -103.338396,
-    latitude: 20.6720375,
+    longitude: -3.16649,
+    latitude: 40.6298,
   },
   {
     name: "Guarda",
@@ -678,8 +678,8 @@ export const countries: Country[] = [
   {
     name: "Leon",
     code: "Leon",
-    longitude: -95.9953382,
-    latitude: 31.2715127,
+    longitude: -5.57175,
+    latitude: 42.5999,
   },
   {
     name: "Liberec",
@@ -816,8 +816,8 @@ export const countries: Country[] = [
   {
     name: "Montana",
     code: "Montana",
-    longitude: -109.638757,
-    latitude: 47.3752671,
+    longitude: 43.4125,
+    latitude: 23.225,
   },
   {
     name: "Munich",
@@ -900,8 +900,8 @@ export const countries: Country[] = [
   {
     name: "Real",
     code: "Real",
-    longitude: -99.8280905,
-    latitude: 29.7949383,
+    longitude: -7.74635,
+    latitude: 41.2959,
   },
   {
     name: "Rijeka",
@@ -948,8 +948,8 @@ export const countries: Country[] = [
   {
     name: "Sebastian",
     code: "Sebastian",
-    longitude: -94.2654285,
-    latitude: 35.1770785,
+    longitude: -1.98445,
+    latitude: 43.3207,
   },
   {
     name: "Seville",
