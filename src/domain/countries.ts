@@ -1,15 +1,14 @@
 // Source:
 
 const countryCodesWithImage = [
-  "Pamplona",
-  "Altdorf",
-  "Amsterdam",
+  "Pamplona (ESPAÑA)", 
+  "Amsterdam", 
   "Ancona",
   "Andorra",
   "Antwerpen",
   "Aosta",
-  "Appenzell",
-  "Arlon",
+  "Appenzell", x
+  "Arlon", x
   "Barcelona",
   "Basel",
   "Luxembourg",
@@ -21,79 +20,79 @@ const countryCodesWithImage = [
   "Valencia",
   "Zaragoza",
   "Albacete",
-  "Alexandria",
-  "Alexandroupoli",
+  "Alexandria", x
+  "Alexandroupoli", x
   "Algeciras",
   "Almeria",
-  "Arendal",
-  "Arnhem",
+  "Arendal", x 
+  "Arnhem", x
   "Assen",
   "Aveiro",
   "Badajoz",
   "Beja",
-  "Bellinzona",
+  "Bellinzona", x
   "Besancon",
   "Biarritz",
   "Braganca",
-  "Branco",
-  "Bregenz",
-  "Brod",
+  "Branco", x
+  "Bregenz", 
+  "Brod", x
   "Burgos",
   "Cadiz",
-  "Campobasso",
+  "Campobasso", x
   "Cartagena",
-  "Cherkasy",
-  "Chernivtsi",
+  "Cherkasy", x
+  "Chernivtsi", x
   "Chernobyl",
-  "Chur",
+  "Chur", x
   "Coimbra",
   "Compostela",
   "Covilha",
   "Debrecen",
-  "Deva",
-  "Diekirch",
-  "Dubasari",
-  "Eisenstadt",
-  "Elblag",
-  "Erfurt",
-  "Evora",
-  "Falun",
+  "Deva", x
+  "Diekirch", x
+  "Dubasari", x
+  "Eisenstadt", x
+  "Elblag", x
+  "Erfurt", x
+  "Evora", 
+  "Falun", x
   "Faro",
-  "Frauenfeld",
+  "Frauenfeld", x
   "Fribourg",
-  "Gavle",
+  "Gavle", x
   "Gijon",
-  "Glarus",
-  "Grevenmacher",
+  "Glarus", x
+  "Grevenmacher", x
   "Guadalajara",
-  "Guarda",
-  "Haapsalu",
-  "Halmstad",
-  "Hameenlinna",
-  "Hania",
-  "Harnosand",
-  "Herisau",
-  "Hillerod",
+  "Guarda", x
+  "Haapsalu", x
+  "Halmstad", x
+  "Hameenlinna", x
+  "Hania", x
+  "Harnosand", x
+  "Herisau", x
+  "Hillerod", x
   "Huelva",
   "Jaen",
-  "Kalmar",
-  "Karlovac",
-  "Karlskrona",
-  "Kirovohrad",
-  "Kristianstad",
-  "Labem",
-  "Lamia",
-  "Leicester",
-  "Leiria",
+  "Kalmar", x
+  "Karlovac", x
+  "Karlskrona", x
+  "Kirovohrad", x
+  "Kristianstad", x
+  "Labem", x
+  "Lamia", x
+  "Leicester", 
+  "Leiria", 
   "Leon",
   "Liberec",
   "Liege",
-  "Liestal",
-  "Linares",
+  "Liestal", x
+  "Linares", x
   "Liverpool",
   "Logrono",
   "London",
-  "Lorca",
+  "Lorca", x
   "Luhansk",
   "Lyon",
   "Maastricht",
@@ -103,62 +102,62 @@ const countryCodesWithImage = [
   "Mataro",
   "Melilla",
   "Middelburg",
-  "Mikkeli",
+  "Mikkeli", x
   "Milan",
   "Minsk",
   "Monaco",
   "Mons",
-  "Montana",
+  "Montana", x
   "Munich",
   "Murcia",
-  "Nykoping",
+  "Nykoping", x
   "Olomouc",
-  "Opole",
+  "Opole", x
   "Oslo",
-  "Perth",
-  "Poitier",
-  "Portalegre",
+  "Perth", x
+  "Poitier", nombre
+  "Portalegre", x
   "Portimao",
   "Porto",
   "Potenza",
   "Prague",
-  "Real",
-  "Rijeka",
+  "Real", x
+  "Rijeka", 
   "Rome",
   "Sanmarino",
-  "Santarem",
+  "Santarem",x
   "Sarajevo",
-  "Schaffhausen",
-  "Schwerin",
-  "Sebastian",
+  "Schaffhausen", x
+  "Schwerin", x
+  "Sebastian", nombre
   "Seville",
-  "Shumen",
-  "Sibenik",
+  "Shumen", x
+  "Sibenik", 
   "Sion",
-  "Sliven",
-  "Soro",
-  "Stuttgart",
+  "Sliven", x
+  "Soro", x
+  "Stuttgart", 
   "Tarragona",
-  "Tonsberg",
+  "Tonsberg", x
   "Toulouse",
   "Trieste",
-  "Tripoli",
-  "Trnava",
+  "Tripoli", x
+  "Trnava", x
   "Utrecht",
-  "Uzhgorod",
+  "Uzhgorod", x
   "Valladolid",
-  "Vannersborg",
-  "Vejle",
-  "Viborg",
+  "Vannersborg", x
+  "Vejle", x
+  "Viborg", x
   "Vigo",
-  "Viljandi",
-  "Visby",
-  "Viseu",
-  "Vitoria",
-  "Volos",
-  "Vossavangen",
-  "Vratsa",
-  "Warsaw",
+  "Viljandi", x
+  "Visby", x
+  "Viseu", 
+  "Vitoria", nombre
+  "Volos", x
+  "Vossavangen", x
+  "Vratsa", x
+  "Warsaw", 
   "York",
   "Zurich",
 ];
@@ -172,8 +171,8 @@ export interface Country {
 
 export const countries: Country[] = [
   {
-    name: "Pamplona",
-    code: "Pamplona",
+    name: "Pamplona (ESPAÑA)",
+    code: "Pamplona (ESPAÑA)",
     longitude: -1.65299999,
     latitude: 42.81299972,
   },
