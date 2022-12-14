@@ -7,8 +7,6 @@ const countryCodesWithImage = [
   "Andorra",
   "Antwerpen",
   "Aosta",
-  "Appenzell", x
-  "Arlon", x
   "Barcelona",
   "Basel",
   "Luxembourg",
@@ -20,79 +18,40 @@ const countryCodesWithImage = [
   "Valencia",
   "Zaragoza",
   "Albacete",
-  "Alexandria", x
-  "Alexandroupoli", x
   "Algeciras",
   "Almeria",
-  "Arendal", x 
-  "Arnhem", x
   "Assen",
   "Aveiro",
   "Badajoz",
   "Beja",
-  "Bellinzona", x
   "Besancon",
   "Biarritz",
   "Braganca",
-  "Branco", x
   "Bregenz", 
   "Brod", x
   "Burgos",
   "Cadiz",
-  "Campobasso", x
   "Cartagena",
-  "Cherkasy", x
-  "Chernivtsi", x
   "Chernobyl",
-  "Chur", x
   "Coimbra",
   "Compostela",
   "Covilha",
   "Debrecen",
-  "Deva", x
-  "Diekirch", x
-  "Dubasari", x
-  "Eisenstadt", x
-  "Elblag", x
-  "Erfurt", x
-  "Evora", 
-  "Falun", x
+  "Evora",
   "Faro",
-  "Frauenfeld", x
   "Fribourg",
-  "Gavle", x
   "Gijon",
-  "Glarus", x
-  "Grevenmacher", x
   "Guadalajara",
-  "Guarda", x
-  "Haapsalu", x
-  "Halmstad", x
-  "Hameenlinna", x
-  "Hania", x
-  "Harnosand", x
-  "Herisau", x
-  "Hillerod", x
   "Huelva",
   "Jaen",
-  "Kalmar", x
-  "Karlovac", x
-  "Karlskrona", x
-  "Kirovohrad", x
-  "Kristianstad", x
-  "Labem", x
-  "Lamia", x
   "Leicester", 
   "Leiria", 
   "Leon",
   "Liberec",
   "Liege",
-  "Liestal", x
-  "Linares", x
   "Liverpool",
   "Logrono",
   "London",
-  "Lorca", x
   "Luhansk",
   "Lyon",
   "Maastricht",
@@ -102,61 +61,36 @@ const countryCodesWithImage = [
   "Mataro",
   "Melilla",
   "Middelburg",
-  "Mikkeli", x
   "Milan",
   "Minsk",
   "Monaco",
   "Mons",
-  "Montana", x
   "Munich",
   "Murcia",
-  "Nykoping", x
   "Olomouc",
-  "Opole", x
   "Oslo",
-  "Perth", x
-  "Poitier", nombre
-  "Portalegre", x
+  "Poitiers",
   "Portimao",
   "Porto",
   "Potenza",
   "Prague",
-  "Real", x
   "Rijeka", 
   "Rome",
   "Sanmarino",
-  "Santarem",x
   "Sarajevo",
-  "Schaffhausen", x
-  "Schwerin", x
-  "Sebastian", nombre
+  "San Sebastian", 
   "Seville",
-  "Shumen", x
   "Sibenik", 
   "Sion",
-  "Sliven", x
-  "Soro", x
   "Stuttgart", 
   "Tarragona",
-  "Tonsberg", x
   "Toulouse",
   "Trieste",
-  "Tripoli", x
-  "Trnava", x
   "Utrecht",
-  "Uzhgorod", x
   "Valladolid",
-  "Vannersborg", x
-  "Vejle", x
-  "Viborg", x
   "Vigo",
-  "Viljandi", x
-  "Visby", x
   "Viseu", 
-  "Vitoria", nombre
-  "Volos", x
-  "Vossavangen", x
-  "Vratsa", x
+  "Vitoria-Gasteiz",
   "Warsaw", 
   "York",
   "Zurich",
@@ -175,12 +109,6 @@ export const countries: Country[] = [
     code: "Pamplona (ESPAÑA)",
     longitude: -1.65299999,
     latitude: 42.81299972,
-  },
-  {
-    name: "Altdorf",
-    code: "Altdorf",
-    longitude: 8.6379995,
-    latitude: 46.8790016,
   },
   {
     name: "Amsterdam",
@@ -861,8 +789,8 @@ export const countries: Country[] = [
     latitude: -31.9558964,
   },
   {
-    name: "Poitier",
-    code: "Poitier",
+    name: "Poitiers",
+    code: "Poitiers",
     longitude: -0.0467273,
     latitude: 44.6545981,
   },
@@ -945,8 +873,8 @@ export const countries: Country[] = [
     latitude: 53.6288297,
   },
   {
-    name: "Sebastian",
-    code: "Sebastian",
+    name: "San Sebastian",
+    code: "San Sebastian",
     longitude: -1.98445,
     latitude: 43.3207,
   },
@@ -1089,8 +1017,8 @@ export const countries: Country[] = [
     latitude: 40.6574713,
   },
   {
-    name: "Vitoria",
-    code: "Vitoria",
+    name: "Vitoria-Gasteiz",
+    code: "Vitoria-Gasteiz",
     longitude: -2.6724025,
     latitude: 42.8465088,
   },
