@@ -132,7 +132,7 @@ export function Infos({ isOpen, close, settingsData }: InfosProps) {
           &quot;Made&quot; by{" "}
           <a
             className="underline"
-            href="https://github.com/COTESA-SA/SATdle_"
+            href="https://cotesa.com.es/satdle/"
             target="_blank"
             rel="noopener noreferrer"
           >
