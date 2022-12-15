@@ -60,9 +60,7 @@ export function Share({
       })
       .join("\n");
 
-    return [title, guessString, "https://cotesa.com.es/satdle/"].join(
-      "\n"
-    );
+    return [title, guessString, "https://cotesa.com.es/satdle/"].join("\n");
   }, [dayString, guesses, hideImageMode, rotationMode, theme]);
 
   return (
