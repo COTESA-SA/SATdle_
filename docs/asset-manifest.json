@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/SATdle_/static/css/main.db2e2872.css",
-    "main.js": "/SATdle_/static/js/main.c146e8ea.js",
+    "main.js": "/SATdle_/static/js/main.dd3164f3.js",
     "static/js/787.b43cf000.chunk.js": "/SATdle_/static/js/787.b43cf000.chunk.js",
     "service-worker.js": "/SATdle_/service-worker.js",
     "index.html": "/SATdle_/index.html",
     "main.db2e2872.css.map": "/SATdle_/static/css/main.db2e2872.css.map",
-    "main.c146e8ea.js.map": "/SATdle_/static/js/main.c146e8ea.js.map",
+    "main.dd3164f3.js.map": "/SATdle_/static/js/main.dd3164f3.js.map",
     "787.b43cf000.chunk.js.map": "/SATdle_/static/js/787.b43cf000.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.db2e2872.css",
-    "static/js/main.c146e8ea.js"
+    "static/js/main.dd3164f3.js"
   ]
 }
