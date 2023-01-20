@@ -9,9 +9,9 @@ import { Settings } from "./components/panels/Settings";
 import { useSettings } from "./hooks/useSettings";
 import { Worldle } from "./components/Worldle";
 import { Stats } from "./components/panels/Stats";
-import { useReactPWAInstall } from "@teuteuf/react-pwa-install";
+import { useReactPWAInstall } from "@COTESA-SA/react-pwa-install";
 import { InstallButton } from "./components/InstallButton";
-import { Twemoji } from "@teuteuf/react-emoji-render";
+import { Twemoji } from "@COTESA-SA/react-emoji-render";
 import { getDayString, useTodays } from "./hooks/useTodays";
 import {
   LocalStoragePersistenceService,
